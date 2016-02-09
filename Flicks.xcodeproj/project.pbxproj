@@ -14,6 +14,7 @@
 		941D2C4A1C5EF7C200AA2A64 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 941D2C481C5EF7C200AA2A64 /* LaunchScreen.storyboard */; };
 		941D2C541C5EF8EA00AA2A64 /* MoviesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 941D2C531C5EF8EA00AA2A64 /* MoviesViewController.swift */; };
 		941D2C571C5FD7E900AA2A64 /* MovieViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 941D2C561C5FD7E900AA2A64 /* MovieViewCell.swift */; };
+		942CAACB1C69935C006338B9 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 942CAACA1C69935C006338B9 /* DetailViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,6 +28,7 @@
 		941D2C4B1C5EF7C200AA2A64 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		941D2C531C5EF8EA00AA2A64 /* MoviesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MoviesViewController.swift; sourceTree = "<group>"; };
 		941D2C561C5FD7E900AA2A64 /* MovieViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MovieViewCell.swift; sourceTree = "<group>"; };
+		942CAACA1C69935C006338B9 /* DetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 		E09EF6938D5E67A63AAEDEA3 /* Pods-Flicks.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Flicks.release.xcconfig"; path = "Pods/Target Support Files/Pods-Flicks/Pods-Flicks.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -103,6 +105,7 @@
 			isa = PBXGroup;
 			children = (
 				941D2C531C5EF8EA00AA2A64 /* MoviesViewController.swift */,
+				942CAACA1C69935C006338B9 /* DetailViewController.swift */,
 			);
 			name = "View Controllers";
 			sourceTree = "<group>";
@@ -232,6 +235,7 @@
 				941D2C401C5EF7C200AA2A64 /* AppDelegate.swift in Sources */,
 				941D2C541C5EF8EA00AA2A64 /* MoviesViewController.swift in Sources */,
 				941D2C571C5FD7E900AA2A64 /* MovieViewCell.swift in Sources */,
+				942CAACB1C69935C006338B9 /* DetailViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
